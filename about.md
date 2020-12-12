@@ -1,25 +1,13 @@
 ---
 layout: page
-title: About This Theme
-description: About the Lightspeed jekyll theme
+title: About Me
+description: About the Site Maintainer
 ---
 
-Some fun facts about the theme include:
+I'm Carlos. I'm an embedded systems engineer who lives in the Bay Area, California. 
 
-* Perfect score on Google's Lighthouse audit
-* Only ~434 bytes of CSS
-* No media queries
-* No JavaScript
-* Probably the fastest Jekyll theme on the Internet <sup>1</sup>
+I love hardware hacking, well-designed software, video games, science fiction, my dog, and my wife, in no particular order.
 
-## Who Made This
+Black Lives Matter
 
-I'm Bradley Taunt, a designer/developer hybrid. 
-
-My passion lies in implementing minimal CSS, with a focus on accessibility and web performance. This theme started as an experiment to see how much could be stripped away from a website, while still maintaining clean and readable content.
-
-Have questions or suggestions? Feel free to hit me up on [Twitter](https://twitter.com/bradtaunt).
-
-Interested in some of my other open source projects? Check out my [portfolio](https://bradleytaunt.com).
-
-<sup>1</sup> <small>[And I base that on absolutely nothing...](https://pbs.twimg.com/media/DtZUpV7WsAAfkeB.jpg)</small>
+Questions or comments? Send me an email <a href="mailto:{{ site.author.email | encode_email }}" title="here">here</a>.

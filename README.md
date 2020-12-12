@@ -1,24 +1,15 @@
-# Light Speed
+# Theme
 
-An insanely fast and performance-based Jekyll theme. Some fun facts about the theme:
-
-* Perfect score on Google's Lighthouse audit
-* Only ~434 bytes of CSS
-* No media queries
-* No JavaScript
-* Probably the fastest Jekyll theme on the Internet
-
------
+This website is based on a theme that I didn't build. Thank you to Bradley Taunt. Check out the theme at https://github.com/bradleytaunt/lightspeed.
 
 ## Author
 
-**Bradley Taunt**
-- <https://github.com/bradleytaunt>
-- <https://twitter.com/bradtaunt>
-
+**Carlos Williams-Moreiras**
+- <https://porter.cloud>
+- <https://github.com/cwmoreiras>
 
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
 
-This project is open source except for example articles found in `_posts`.
+Everything at this site is public, but please be kind and give me credit.
