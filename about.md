@@ -6,7 +6,7 @@ description: About the Site Maintainer
 
 I'm Carlos. I'm an embedded systems engineer who lives in the Bay Area, California. 
 
-I love hardware hacking, well-designed software, video games, science fiction, my dog, and my wife, in no particular order.
+I love hardware hacking, well-designed software, video games, science fiction, my dog, and my wife, and not in that order.
 
 Black Lives Matter.
 
