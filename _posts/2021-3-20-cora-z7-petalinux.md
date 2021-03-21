@@ -50,7 +50,7 @@ ERROR: Failed to config project.
 Seriously? I hate this type of crap. Time to build the Petalinux project from scratch in Vivado, I guess. Honestly, I think I'm going to have to learn a little bit more about what is going on under the hood.
 
 Sources:<br>
-[https://github.com/Digilent/Petalinux-Cora-Z7-10/](https://github.com/Digilent/Petalinux-Cora-Z7-10/)<br>
-[https://www.hackster.io/100311/estimating-pi-with-a-cora-z7-running-linux-03995b](https://www.hackster.io/100311/estimating-pi-with-a-cora-z7-running-linux-03995b)<br>
-[https://richarthurs.com/2019/01/05/cora-linux-getting-started/](https://richarthurs.com/2019/01/05/cora-linux-getting-started/)<br>
-[https://www.xilinx.com/products/design-tools/embedded-software/petalinux-sdk.html#tools](https://www.xilinx.com/products/design-tools/embedded-software/petalinux-sdk.html#tools)<br>
+[1] [https://github.com/Digilent/Petalinux-Cora-Z7-10/](https://github.com/Digilent/Petalinux-Cora-Z7-10/)<br>
+[2] [https://www.hackster.io/100311/estimating-pi-with-a-cora-z7-running-linux-03995b](https://www.hackster.io/100311/estimating-pi-with-a-cora-z7-running-linux-03995b)<br>
+[3] [https://richarthurs.com/2019/01/05/cora-linux-getting-started/](https://richarthurs.com/2019/01/05/cora-linux-getting-started/)<br>
+[4] [https://www.xilinx.com/products/design-tools/embedded-software/petalinux-sdk.html#tools](https://www.xilinx.com/products/design-tools/embedded-software/petalinux-sdk.html#tools)<br>
