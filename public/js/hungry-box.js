@@ -3,7 +3,6 @@ var canvas = document.createElement("canvas");
 var cx = canvas.getContext("2d");
 cx.canvas.width = 600;
 cx.canvas.height = 600;
-// document.body.appendChild(canvas);
 document.getElementById('game').appendChild(canvas)
 //**************utilities******************
 var floorToScale = function(number, scale) {
