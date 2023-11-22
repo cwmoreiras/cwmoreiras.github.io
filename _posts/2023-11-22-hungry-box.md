@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HungryBox (Fun Javascript Game!)
+title: HungryBox [Fun Javascript Game! Not Mobile-Friendly]
 description: Play HungryBox!
 tags: hungrybox games
 ---
