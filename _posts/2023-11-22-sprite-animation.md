@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sprite Animation Example
+title: Sprite Animation Example [Not Mobile Friendly]
 description: how to animate a sprite
 ---
 
