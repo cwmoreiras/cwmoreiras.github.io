@@ -24,9 +24,9 @@ INFO: Sourcing build tools
 ERROR: Failed to silentconfig project component 
 ERROR: Failed to build project
 ```
-Yikes! I'm not going to install an old version of Vivado just for this. That is a large piece of software, and I hate starting a new project with an outdated toolchain. Thankfully, Digilent provides a board support package (BSP) that seems good to go. I'll figure out how to build Petalinux from source when I have to.
+Yikes! I'm not going to install an old version of Vivado just for this. That is a large piece of software, and I don't like starting a new project with an outdated toolchain. Thankfully, Digilent provides a board support package (BSP) that seems good to go. I'll figure out how to build Petalinux from source when I have to.
 
-After I successfully put the boot files on the SD card and connected to the Cora Z7 through the serial port, I realized that I didn't have enough space on my SD card for a proper filesystem. I wanted my files to persist across reboots, so I went back a couple steps, reformatted the card, and put the boot files back on there. Very annoying.
+After I successfully put the boot files on the SD card and connected to the Cora Z7 through the serial port, I realized that I didn't have enough space on my SD card for a proper filesystem. I wanted my files to persist across reboots, so I went back a couple steps, reformatted the card, and put the boot files back on there.
 
 Anyways, I used minicom to connect to the device, and it worked pretty easily to setup minicom with the command `minicom -s` using 8N1 @ 115200 baud and no flow control, as suggested in Digilent's README. The board was at `/dev/ttyUSB1`. Proof:
 ```
@@ -47,7 +47,7 @@ INFO: Sourcing build tools
 ERROR: Failed to menu config project component 
 ERROR: Failed to config project.
 ```
-Seriously? I hate this type of crap. Time to build the Petalinux project from scratch in Vivado, I guess. Honestly, I think I'm going to have to learn a little bit more about what is going on under the hood.
+Time to build the Petalinux project from scratch in Vivado, I guess. Honestly, I think I'm going to have to learn a little bit more about what is going on under the hood.
 
 Sources:<br>
 [1] [https://github.com/Digilent/Petalinux-Cora-Z7-10/](https://github.com/Digilent/Petalinux-Cora-Z7-10/)<br>
