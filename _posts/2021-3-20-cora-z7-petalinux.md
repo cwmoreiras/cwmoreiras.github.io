@@ -6,12 +6,12 @@ description: Load Petalinux onto Cora Z7 with Vivado 2020.2 on Ubuntu 20.04
 
 At work I develop for very resource-constrained systems. Typically I use a small microcontroller to interface with other devices through SPI, I2C and UART ports. However, some hobby projects I've been considering will use USB, Ethernet, and HDMI. Since I'm not worried about power consumption on these projects, and I don't really care to learn the ins and outs of those protocols just yet, I'm going to use Linux to keep the programming simple. 
 
-Enter the [Cora Z7](https://store.digilentinc.com/cora-z7-zynq-7000-single-core-and-dual-core-options-for-arm-fpga-soc-development/) board from Digilent. This board features a Zynq-7000 SoC from Xilinx. I picked up the Dual-Core version, so I get 2 ARM Coretex-A9 cores (and the FPGA fabric) to play with. Of course, I pretty much impulse-bought this thing, so it wasn't until I opened the box that I realized there's no HDMI connector on there. Oops!
+I like the [Cora Z7](https://store.digilentinc.com/cora-z7-zynq-7000-single-core-and-dual-core-options-for-arm-fpga-soc-development/) board from Digilent. This board features a Zynq-7000 SoC from Xilinx. I picked up the Dual-Core version, so I get 2 ARM Coretex-A9 cores (and the FPGA fabric) to play with. Of course, I pretty much impulse-bought it, so it wasn't until I opened the box that I realized there's no HDMI connector on there. Oops!
 
 ![Cora](https://i.imgur.com/FYGqMgO.jpg)
 
 First order of business is to figure out how to load Linux onto the board. I'm looking at [this](https://github.com/Digilent/Petalinux-Cora-Z7-10/ "Petalinux Cora Z7-10")
-project. Bad news is, it's built with Petalinux 2017.4. I am using the SDK version 2020.2 (yeah, *Digilent*, some of us like to keep our toolchain up to date). This is the error I get when I try to build the project from source:
+project. Bad news is, it's built with Petalinux 2017.4. I am using the SDK version 2020.2. This is the error I get when I try to build the project from source:
 ```
 $ petalinux-build 
 WARNING: Your PetaLinux project was last modified by PetaLinux SDK version "2017.4",
